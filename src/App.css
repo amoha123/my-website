@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+/* Update CSS for a more professional look */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+section {
+  margin-bottom: 2rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h1, h2, h3 {
+  color: #005bb5;
+}
+
+.link {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.resume-button {
+  background-color: #0073e6;
   color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
-.App-link {
-  color: #61dafb;
+.resume-button:hover {
+  background-color: #005bb5;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Center and style image at the bottom */
+.footer {
+  margin-top: 2rem; /* Adds space between content and image */
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #f9f9f9; /* Optional: add a subtle background color */
 }
+
+.image {
+  width: 50%; /* Adjust width as needed */
+  max-width: 300px;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Center the image */
+}
+
